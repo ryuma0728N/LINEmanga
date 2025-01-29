@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3b3b3b;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta-button {
+    background: #f5a623;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #d48120;
+}
+
+.sample-read, .user-reviews, .special-offers, .purchase-section {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background: #3b3b3b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
