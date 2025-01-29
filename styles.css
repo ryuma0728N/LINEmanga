@@ -2,10 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background: url('https://example.com/brown-image.jpg') no-repeat center center/cover; /* ブラウンのキャラクター画像を背景に設定 */
+    color: #fff; /* テキストの色を白に */
 }
 
 header {
-    background: #3b3b3b;
+    background: #00C300; /* LINE緑 */
     padding: 10px;
 }
 
@@ -23,14 +25,13 @@ header nav a {
 }
 
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 50px 0;
 }
 
 .cta-button {
-    background: #f5a623;
+    background: #00C300; /* LINE緑 */
     color: white;
     padding: 15px 30px;
     font-size: 18px;
@@ -42,16 +43,21 @@ header nav a {
 }
 
 .cta-button:hover {
-    background: #d48120;
+    background: #009900; /* 緑色が濃くなる */
 }
 
 .sample-read, .user-reviews, .special-offers, .purchase-section {
     padding: 40px;
     text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* 背景を半透明にして視認性を高める */
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
 }
 
 footer {
-    background: #3b3b3b;
+    background: #00C300; /* LINE緑 */
     color: white;
     padding: 20px;
     text-align: center;
