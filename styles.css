@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://example.com/brown-image.jpg') no-repeat center center/cover; /* ブラウンのキャラクター画像を背景に設定 */
-    color: #fff; /* テキストの色を白に */
+    background: url('https://example.com/brown-image.jpg') no-repeat center center/cover; /* ブラウンキャラクター画像のURLを使用 */
+    color: #fff; /* テキストを白に設定 */
 }
 
 header {
-    background: #00C300; /* LINE緑 */
+    background: #00C300; /* LINEの緑色 */
     padding: 10px;
 }
 
@@ -31,7 +31,7 @@ header nav a {
 }
 
 .cta-button {
-    background: #00C300; /* LINE緑 */
+    background: #00C300; /* LINEの緑色 */
     color: white;
     padding: 15px 30px;
     font-size: 18px;
@@ -57,7 +57,7 @@ header nav a {
 }
 
 footer {
-    background: #00C300; /* LINE緑 */
+    background: #00C300; /* LINE緑色 */
     color: white;
     padding: 20px;
     text-align: center;
